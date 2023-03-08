@@ -1,0 +1,16 @@
+{
+  "name": "anj.digital",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:joseryzmal/anj.digital.git",
+  "author": "Joseph Malabuyoc <malabuyoc.ryzan@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "npx tailwindcss -i ./assets/css/tailwind.css -o ./assets/css/styles.css --minify",
+    "watch": "npx tailwindcss -i ./assets/css/tailwind.css -o ./assets/css/styles.css --watch",
+    "clean": "rm -rf _site/*"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.2.7"
+  }
+}

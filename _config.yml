@@ -18,38 +18,78 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
+title: anj.digital
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+
+
+  Next para lorem ipsum
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+domain: joseryzmal.dev
+url: "https://anj.digital"
 twitter_username: jekyllrb
 github_username:  jekyll
 
-# Build settings
-theme: minima
-plugins:
-  - jekyll-feed
+profile_name: Angela Salano
+profile_title: Digital Product Designer
+linkedin_url: https://www.linkedin.com/in/angelasalano/
+about: >-
+  It’s been my joy and passion creating scalable and easy-to-use digital products for users. I specialize in creating digital designs, responsive website interfaces, and UI screens for mobile apps.
 
-# Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
-#
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
-#
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+
+  My journey has been from Graphic Design and Multimedia Digital to Digital Product Design. I am a multi-skilled professional with a love for Design Systems and defining Screen Flows.
+
+
+  I am also knowledgeable at using different Content Management Systems having experience with Joomla, Drupal, Wordpress, and Magento.
+
+
+  With exposure from different industries: Digital News, Telco/IT, E-commerce, and Marketing, I am able to quickly learn different processes. I am flexible, collaborative, and able to adapt with the ever-changing landscape of my chosen career.
+skills:
+  - title: UI/UX Design
+    rating: 5/5
+  - title: Wireframing
+    rating: 5/5
+  - title: Prototyping
+    rating: 5/5
+  - title: Design Systems
+    rating: 5/5
+  - title: Graphic Design
+    rating: 5/5
+  - title: Data Visualization
+    rating: 5/5
+  - title: Video Editing
+    rating: 4/5
+  - title: HTML + CSS
+    rating: 3/5
+
+education:
+  - title: De La Salle-College of Saint Benilde
+    details: AB Multimedia Arts, 2012
+  - title: De La Salle University
+    details: Marketing Management, 2008
+  - title: Miriam College
+    details: Secondary, 2005
+
+collections:
+  work_experiences:
+    sort_by: index
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+      title: anj.digital
+
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - package.json
+  - tailwind.config.js
+  - yarn.lock
+  - assets/css/tailwind.css
