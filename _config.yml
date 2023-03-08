@@ -26,14 +26,16 @@ description: >- # this means to ignore newlines until "baseurl:"
 
   Next para lorem ipsum
 baseurl: "" # the subpath of your site, e.g. /blog
-domain: joseryzmal.dev
-url: "https://anj.digital"
+# domain: joseryzmal.dev
+# url: "https://anj.digital"
 twitter_username: jekyllrb
 github_username:  jekyll
 
 profile_name: Angela Salano
 profile_title: Digital Product Designer
 linkedin_url: https://www.linkedin.com/in/angelasalano/
+external_url: https://anj.digital
+behance_url: https://www.behance.net/AngelaSalano
 about: >-
   It’s been my joy and passion creating scalable and easy-to-use digital products for users. I specialize in creating digital designs, responsive website interfaces, and UI screens for mobile apps.
 
