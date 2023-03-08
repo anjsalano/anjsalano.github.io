@@ -66,12 +66,29 @@ skills:
     rating: 3/5
 
 education:
+  - title: Design for the 21st Century
+    details: >-
+      Interaction Design Foundation (IxDF)
+
+      Issued Mar 2022
+
+      Credential ID 94627-2022-661627
+  - title: Web Design for Usability
+    details: >-
+      Interaction Design Foundation (IxDF)
+
+      Issued Mar 2021
+
+      Credential ID 946272021508917
+  - title: Foundation Certificate in User Experience
+    details: >-
+      BCS, The Chartered Institute for IT
+
+      Issued Dec 2019
+
+      Credential ID 00473208 / Candidate Number: SJ37964551
   - title: De La Salle-College of Saint Benilde
     details: AB Multimedia Arts, 2012
-  - title: De La Salle University
-    details: Marketing Management, 2008
-  - title: Miriam College
-    details: Secondary, 2005
 
 collections:
   work_experiences:
